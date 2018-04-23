@@ -1,0 +1,41 @@
+<!--我下的单详情  -->
+<!--订单状态  -->
+<view class='head'>{{orderstatus}}</view>
+
+
+<!--买家头像呢称  -->
+<view class='box'>
+  <image class='buyersimg'></image>
+  <view class='buyertext'>卖家呢称
+    <view>卖家个人简介</view>  
+  </view>
+</view>
+
+<!--订单信息  -->
+<view class='order'>
+  <view class='ordertext1'>订单信息</view>
+  <view class='textbox'>
+    <view>咨询类型：</view>
+    <view>咨询价格：</view>
+    <view>备注：</view>
+  </view>
+</view>
+
+<!-- 价格信息  -->
+<view class='pay'>
+  <view>商品总价:<text>¥10</text></view>
+  <view>优惠:<text>¥10</text></view>
+  <view>积分抵扣:<text>¥10</text></view>
+  <view>实付:<text>¥10</text></view>  
+</view>
+
+<!--订单号时间  -->
+<view class='orderID'>
+  <view class='view1'>订单号：<button>复制</button></view>
+  <view>创建时间：</view>
+  <view>支付时间：</view>
+</view>
+
+
+<!--button  -->
+<button class='footer'>提醒用户</button>

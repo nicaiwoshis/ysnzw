@@ -1,0 +1,33 @@
+<view class="head-img">
+  <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" class="head-img"></image>
+</view>
+
+  <!-- 表单部分 -->
+<view class='contains'>
+  <view class='contain-item1'>
+    <view class='text'><text>昵称：</text></view>
+    <view><input bindinput='getText' value='{{userInfo.nickName}}'></input></view>
+  </view>
+
+  <view class='contain-item1'>
+    <view class='text'><text>我是：</text></view>
+    <view><input bindinput='getText2'></input></view>
+  </view>
+
+  <view class='contain-item1'>
+    <view class='text'><text>我的能力：</text></view>
+    <view>
+      <input bindinput="getText3" value="{{msg}}"></input>
+      <button class='btn' bindtap='add_after'>添加</button>
+    </view>
+  </view>
+
+  <view class='contain-item1'>
+    <view class='text'><text>能力标签：</text></view>
+    <view class='tag'>
+        <view class='tag1' wx:if="{{flg}}" name="deletes" wx:for="{{list}}" wx:key="this" bindchang="bindDeleteChange">{{item.name}}</view>
+    </view>
+  </view> 
+</view>
+<!--按钮部分  -->
+<button class='btn1' bindtap='clickNext'>下一步</button>

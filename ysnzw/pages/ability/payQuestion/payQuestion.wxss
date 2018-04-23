@@ -1,0 +1,26 @@
+.head{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+
+}
+.tag{
+  border: 1px solid red;
+  width: 120rpx;
+  height: 120rpx;
+  margin: 30rpx;
+  float: left;
+}
+.contain{
+  clear: left;
+  margin-left: 15%;
+  padding-top: 5%;
+}
+
+/*底部  */
+.footer{
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10%;
+}

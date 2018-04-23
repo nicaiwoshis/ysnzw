@@ -1,0 +1,29 @@
+<!--职业  -->
+<view class='zhiye'>Web前端工程师</view>
+
+<!--头部  -->
+<view class='head'>
+  <image src='{{userInfo.avatarUrl}}' class='head-img'></image>
+  <view class='headName'>呢称：{{userInfo.nickName}}</view>
+</view>
+<!--中间咨询部分  -->
+<view class='contain'>
+  <view>请问你要咨询什么？</view>
+  <!--能力标签  -->
+  <view class='box'>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+  </view>
+</view>
+
+<!--按钮部分  -->
+<view class='footer'>
+  <button class='footer1' bindtap='pay' >付费提问</button>
+  <button class='footer2' bindtap='join'>一起加入我们</button>
+
+
+</view>

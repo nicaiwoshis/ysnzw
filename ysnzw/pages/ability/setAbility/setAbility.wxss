@@ -1,0 +1,56 @@
+.head-img{
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 auto;
+}
+.contains{
+  /* border: 1px black solid; */
+  /* width: 100%; */
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.contain-item1{
+   display: flex;
+  justify-content: center; 
+  margin: 40rpx;
+}
+.contain-item1 input{
+  border: 1px solid black;
+  margin-left: 30rpx;
+}
+.text{
+  width: 29%;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.text text{
+  position: absolute;
+  right: 0px;
+}
+.btn{
+  margin-left: 30rpx;
+  margin-top: 10%;
+}
+
+/* 能力标签 */
+.tag{
+  width: 60%;
+}
+.tag1{
+  width: 90rpx;
+  height: 90rpx;
+  border: 1px solid red;
+  float: left;
+  margin: 10rpx;
+  margin-left: 25rpx;
+}
+
+/*按钮部分  */
+.btn1{
+  width: 80%;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}

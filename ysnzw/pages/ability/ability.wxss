@@ -1,0 +1,11 @@
+.head{
+   text-align: center; 
+}
+.body{
+   text-align: center; 
+   margin-top: 100rpx;
+  }
+.nav{
+  
+  margin-top: 40%;
+}

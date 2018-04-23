@@ -1,0 +1,33 @@
+  <view class='head'>职业：{{professional}}</view>
+
+
+ <!-- 职业呢称 -->
+<view class='contain'>
+  <!--头像  -->
+  <view class="head-img">
+    <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" class="head-img"></image>
+  </view>
+  <view class='conText'>呢称：{{userInfo.nickName}}</view>
+</view>
+
+ <!--我的能力加收费标准  -->
+<view class='contain2'>  
+  <view>我的能力：</view>
+  <!--标签块  -->
+  <view class='box'>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+    <view class='tag'>1</view>
+  </view>
+  <!--收费标准  -->
+  <view style='clear:both; margin-top:10%;'>收费标准{{charge}}元/次</view>
+</view>
+
+<!--按钮设置  -->
+<view class='contain3'>
+  <button>确认</button>
+  <button bindtap='next'>分享</button>
+</view>

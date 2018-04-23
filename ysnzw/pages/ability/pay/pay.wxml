@@ -1,0 +1,5 @@
+<view class='contain'>
+  <view>支付金额</view>
+  <input placeholder='请输入金额' bindinput='getText'></input>
+  <button bindtap='clickPay'>确认支付</button>
+</view>

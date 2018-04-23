@@ -1,0 +1,25 @@
+<!--展示能力标签  -->
+<view class='head'>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+  <view class='tag'>1</view>
+</view>
+
+<!--收费标准  -->
+<view class='contain'>
+  <view>收费标准{{number}}元/次</view>
+</view>
+
+
+
+<!--下单按钮  -->
+<view class='footer'>
+  <button bindtap='go'>下单</button>
+
+</view>

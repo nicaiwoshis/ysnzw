@@ -1,0 +1,11 @@
+.contain{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.contain input{
+  border: 1px solid black;
+  margin: 30rpx 0;
+  height: 80rpx;
+
+}

@@ -1,0 +1,113 @@
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.weui-navbar{
+  background-color: white;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    /* padding-top: 60px; */
+    /* text-align: center; */
+    margin: 30px;
+}
+.contain{
+    border:1px solid #d9d9d9; 
+    border-bottom:none; 
+}
+/*我的下的单  */
+.contain1{
+   border-bottom:1px solid #d9d9d9; 
+   margin-bottom: 10%;
+    
+}
+/*商品图片加简介  */
+.contain2{
+  border-bottom: 1px solid #d9d9d9;
+  width: 100%;
+  height: 200rpx;
+}
+.contain2 image{
+  width: 120rpx;
+  height: 120rpx;
+  margin: 30rpx;
+   float: left; 
+}
+.contain2-text{
+    /* border: 1px solid green;   */
+  display: inline-block;
+  margin: 10rpx;
+  /* padding: 10rpx; */
+   width: 65%; 
+  float: left;
+}
+/*价格  */
+.jine2{
+  text-align: right;
+  padding: 20rpx;
+  border-bottom:  1px solid #d9d9d9;
+}
+/*按钮  */
+.footer1{
+}
+.footer2 {
+  width: 40%;
+  margin: 5%;
+  margin-left: 50%;
+  padding-bottom: 5%;
+}
+
+
+
+
+/*我接的单  */
+.box{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  font-size: 0.8em;
+  margin-bottom: 10%;
+}
+.order{
+  border-bottom: 1px solid #d9d9d9;
+}
+.order1{
+  display: inline-block;
+  padding: 10rpx;
+}
+.order2{
+  float: right;
+  padding: 10rpx;
+}
+/*用户信息  */
+.user image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin: 15%;
+}
+.boxText{
+  /* border: 1px solid red; */
+  height: 30%;
+  width: 60%;
+  margin: 5%;
+  margin-left: 10%;
+
+}
+.user{
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+}
+/*买家信息  */
+.note{
+
+  height: 80%;
+  /* border: 1px solid red; */
+}
+.note view{
+    margin: 5%;
+    word-wrap:break-word;
+}

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/personalCenter/navbar/navbar",
+    "pages/ability/ability",
+    "pages/ability/share/share",
+    "pages/ability/paysuccess/paysuccess",
+    "pages/ability/pay/pay",
+    "pages/ability/massage/massage",
+    "pages/ability/setAbility2/setAbility2",
+    "pages/ability/setAbility/setAbility",
+    "pages/abilityList/abilityList",
+    "pages/personalCenter/orderdetails/orderdetails",
+    "pages/personalCenter/order/order",
+    "pages/ability/payQuestion/payQuestion",
+    "pages/personalCenter/personalCenter"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "有事您找我",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/abilityList/abilityList",
+        "text": "能力列表",
+        "iconPath": "img/tab/ability_list.png",
+        "selectedIconPath": "img/tab/ability_list_selected.png"
+      },
+      {
+        "pagePath": "pages/ability/ability",
+        "text": "我的能力",
+        "iconPath": "img/tab/my_ability.png",
+        "selectedIconPath": "img/tab/my_ability_selected.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "个人中心",
+        "iconPath": "img/tab/personal_center.png",
+        "selectedIconPath": "img/tab/personal_center_selected.png"
+      }
+    ]
+  }
+}

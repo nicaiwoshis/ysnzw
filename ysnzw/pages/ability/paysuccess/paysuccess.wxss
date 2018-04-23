@@ -1,0 +1,17 @@
+/* pages/ability/paysuccess/paysuccess.wxss */
+.contain{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+}
+.go{
+  width: 80%;
+  margin: 0 auto;
+}
+.text{
+  margin-top: 50rpx;
+}
+.text1{
+  margin-bottom: 50rpx;
+}

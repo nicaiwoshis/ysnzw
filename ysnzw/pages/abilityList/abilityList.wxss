@@ -1,0 +1,43 @@
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    /* padding-top: 60px; */
+    /* text-align: center; */
+}
+/*排序  盒子  */
+.box{
+  border: 1px solid black;
+  margin: 5%;
+  overflow: hidden;
+}
+.img{
+  width: 80rpx;
+  height: 80rpx;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin: 20rpx;
+  float: left;
+}
+.sorting text{
+  /* border: 1px solid red; */
+  margin-top: 25rpx;
+  float: left;
+}
+/*个人简介  */
+.sorting1{
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+  padding: 2rpx;
+}
+/*时间日期  */
+.sorting2{
+  float: right;
+  margin: 15rpx;
+}

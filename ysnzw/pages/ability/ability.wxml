@@ -1,0 +1,6 @@
+<view class='nav'>
+  <view class='head'>{{name}}</view>
+  <view class='body'>
+    <button class="weui-btn" size='mini' bindtap='clickNext'>设置</button>
+  </view>
+</view>

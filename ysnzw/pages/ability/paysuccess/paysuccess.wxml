@@ -1,0 +1,9 @@
+<!--  -->
+<view class='contain'>
+   <icon type='success' size='150'></icon> 
+   
+   <view class='text'>支付已完成</view>
+   <view class='text1'>【支付{{}}元】</view>
+   <view class='go' bindtap='go'><button>前去提问</button></view>
+
+</view>

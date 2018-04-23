@@ -1,0 +1,63 @@
+/*职业  */
+.zhiye{
+  text-align: center;
+  font-size: 2rem;
+}
+.head{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.head-img{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  float: left;
+  margin-left: 10%;
+}
+.headName{
+  /* float: left; */
+   margin-top: 10%; 
+   margin-left: 5%;
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: 50%;
+  /* text-align: center; */
+}
+
+/*主体部分  */
+.contain{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20%;
+  clear: both;
+  border: 1px springgreer solid;
+}
+
+/*能力标签  */
+.box{
+  width: 90%;
+  /* border:1px  solid red; */
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.tag{
+  width: 120rpx;
+  height: 120rpx;
+  border: 1px solid black;
+  float: left;
+  margin: 20rpx;
+  margin-left: 30rpx;
+}
+
+/*底部  */
+.footer{
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+.footer2{
+  margin-top: 5%;
+}

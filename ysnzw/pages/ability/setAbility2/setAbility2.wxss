@@ -1,0 +1,22 @@
+.contains{
+  width: 80%;
+  margin: 0 auto;
+}
+.introduce{
+  border: 1px solid black;
+  margin-top: 5%;
+}
+.contain-item{
+  margin-top: 5%;
+}
+.contain-item input{
+  border: 1px solid black;
+  margin-top: 3%;
+  height: 35px;
+}
+.footer button{
+  width: 42%;
+  float: left;
+  margin: 20rpx;
+  margin-top:10%;
+}
